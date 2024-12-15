@@ -225,4 +225,5 @@ btn_run.pack(pady=20)
 
 
   # Запуск интерфейса
+print('Запуск')
 root.mainloop()
