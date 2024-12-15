@@ -219,7 +219,7 @@ combo_methods = ttk.Combobox(
 combo_methods.pack(side=tk.LEFT, padx=5)
 
 # Кнопка для запуска программы Pusk
-btn_run = tk.Button(root, text="Запуск Pusk", command=Pusk)
+btn_run = tk.Button(root, text="Запуск", command=Pusk)
 btn_run.pack(pady=20)
 
 
