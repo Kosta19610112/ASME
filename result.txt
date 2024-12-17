@@ -1,0 +1,142 @@
+Блок 1:
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+
+Блок 2:
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Блок 3:
+Stress Values, S, for Ferrous Materials
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Блок 4:
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Строка 22699: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Блок 5:
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Строка 22899: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+Контекст (5 строк выше):
+
+Блок 6:
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Строка 23077: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+Контекст (5 строк выше):
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+
+Блок 7:
+Строка 23263: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+Контекст (5 строк выше):
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+
+Блок 8:
+Строка 23447: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+Контекст (5 строк выше):
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+
+Блок 9:
+Контекст (5 строк выше):
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+Line
+
+Блок 10:
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+
+Блок 11:
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Блок 12:
+Stress Values, S, for Ferrous Materials
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Блок 13:
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Строка 24533: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Блок 14:
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Строка 24713: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+Контекст (5 строк выше):
+
+Блок 15:
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Строка 24891: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+Контекст (5 строк выше):
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+
+Блок 16:
+Строка 25069: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+Контекст (5 строк выше):
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+
+Блок 17:
+Строка 25247: 40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+Контекст (5 строк выше):
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+
+Блок 18:
+Контекст (5 строк выше):
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+Line
+
+Блок 19:
+Section III, Division 1, Classes 1, MC, and CS; Section III, Division 3; and Section III, Division 5
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+
+Блок 20:
+Design Stress Intensity Values, Sm, and Section VIII, Division 2, Class 1 Maximum Allowable
+Stress Values, S, for Ferrous Materials
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
+Блок 21:
+Stress Values, S, for Ferrous Materials
+Line
+No.Design Stress Intensity or Maximum Allowable Stress, MPa (Multiply by 1000 to Obtain kPa), for Metal Temperature, °C, Not Exceeding
+40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500
+
