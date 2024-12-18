@@ -1,28 +1,45 @@
-import pandas as pd
+def poisk(text, textnot, filename):
+    """
+    Ищет строки в файле filename, которые совпадают с text, и записывает номера строк в файл result.txt.
 
-# Укажите путь к исходному текстовому файлу
-input_file_path = 'initialASME.txt'
+    :param text: Текст для поиска.
+    :param filename: Имя файла, в котором выполняется поиск.
+    """
+    try:
+        # Список для хранения номеров строк
+        line_numbers = []
 
-# Чтение данных из текстового файла
-with open(input_file_path, 'r') as file:
-    lines = file.readlines()
+        # Чтение файла и поиск совпадений
+        with open(filename, 'r', encoding='utf-8') as file:
+            for i, line in enumerate(file, start=1):
+                if text in line and textnot not in line:
+                    line_numbers.append(i)
+        print(line_numbers)
+        print(len(line_numbers))
+        # Запись найденных номеров строк в файл
+        with open('result.txt', 'w', encoding='utf-8') as result_file:
+            result_file.write(f'Номера строк, содержащие "{text}":\n')
+            result_file.write(", ".join(map(str, line_numbers)))
+            result_file.write('\n')
+            result_file.write(str(len(line_numbers)))
 
-# Инициализация списка для хранения номеров строк с заголовками
-head1 = []
+        print(f"Номера строк записаны в файл 'result.txt'.")
+    except FileNotFoundError:
+        print(f"Файл '{filename}' не найден.")
+    except Exception as e:
+        print(f"Произошла ошибка: {e}")
+
 
 # Целевая строка для поиска
-header_line = '40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500'
+text = '40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500'
+textnot = '40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500 ***'
 
-# Поиск строк с целевым текстом
-for index, line in enumerate(lines):
-#    if line.strip() == header_line:
-#    if line == header_line:
-    if header_line in line:
-        head1.append(index)
+text = '40 65 100 125 150 200 250 300 325 350 375 400 425 450 475'
+textnot = '40 65 100 125 150 200 250 300 325 350 375 400 425 450 475 500'
 
-print(f"Строки с заголовком найдены на следующих номерах: {head1}")
 
-f = open('head_numbers.txt', 'w')
-print(head1, file = f)
-print('len = ', len(head1), file = f)
-f.close()
+filename = 'initialASME.txt'
+input_file_path = input(f"[{filename}] ") or filename
+print(f"Вы ввели: {input_file_path}")
+
+poisk(text, textnot, filename)
