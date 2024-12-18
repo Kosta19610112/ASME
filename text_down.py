@@ -13,7 +13,7 @@ def extract_lines_down(filename, i, n):
             lines = file.readlines()
 
         # Преобразуем индекс i из "человеческого" в индекс Python
-        start_index = i
+        start_index = i - 1
 
         # Получаем нужные строки
         selected_lines = lines[start_index:start_index + n]
@@ -33,8 +33,8 @@ def extract_lines_down(filename, i, n):
     except Exception as e:
         print(f"Произошла ошибка: {e}")
 
-list_i = [21936, 22120, 22318, 22500, 22698, 22898, 23076, 23262, 23446, 23624, 23808, 
-          23986, 24170, 24352, 24532, 24712, 24890, 25068, 25246, 25442, 25622, 25806, 25916]
+list_i = [21937, 22121, 22319, 22501, 22699, 22899, 23077, 23263, 23447, 23625, 23809, 23987, 
+          24171, 24353, 24533, 24713, 24891, 25069, 25247, 25443, 25623, 25807, 25917]
 len0 =  23
 
 #"40 65 100 125 150 200 250 300 325 350 375 400 425 450 475"
@@ -44,9 +44,11 @@ list_i =  [5493, 5725, 5960, 6192, 6420, 6648, 6876, 7104, 7332, 7560, 7788, 801
            13774, 13949]
 len0 = 38
 
-for j in range(0, 1):
+#for j in range(0, len0-1):
+for j in range(len0-1, len0):
     i = list_i[j]
-    n = 46
+    n = 19
+#    n = 46
     res_text = extract_lines_down('initialASME.txt', i, n)
     print(res_text)
 
