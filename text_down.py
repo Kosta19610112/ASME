@@ -1,4 +1,4 @@
-def extract_lines_down(filename, i, n):
+def extract_lines_down0(filename, i, n):
     """
     Формирует текст из строк i, i+1, ..., i+n-1 из файла.
 
@@ -49,10 +49,27 @@ for j in range(len0-1, len0):
     i = list_i[j]
     n = 19
 #    n = 46
-    res_text = extract_lines_down('initialASME.txt', i, n)
+    res_text = 0('initialASME.txt', i, n)
     print(res_text)
 
     filename = 'Table 1A' + '_' + str(i) + '.txt'
     file = open(filename, 'w')
     file.write(res_text)
     file.close()
+
+
+
+
+
+
+
+
+
+def extract_lines_down(filename, list_i, n):
+    for i in list_i:
+        extract_lines_down0(filename, i, n)
+
+filename = 'text.txt'
+list_i = = [21937, 22121, 22319, 22501, 22699, 22899, 23077, 23263, 23447, 23625, 23809, 23987, 
+          24171, 24353, 24533, 24713, 24891, 25069, 25247, 25443, 25623, 25807, 25917]
+extract_lines_down(filename, list_i, n)
